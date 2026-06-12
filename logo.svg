@@ -1,0 +1,28 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3d7bff"/>
+      <stop offset="100%" stop-color="#0033b3"/>
+    </linearGradient>
+    <linearGradient id="snake" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#aac2ff"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="200" height="200" rx="40" fill="url(#bg)"/>
+  <circle cx="100" cy="100" r="80" fill="none" stroke="#ffffff" stroke-opacity="0.10" stroke-width="6"/>
+
+  <g fill="url(#snake)">
+    <rect x="36"  y="126" width="24" height="24" rx="8"/>
+    <rect x="60"  y="126" width="24" height="24" rx="8"/>
+    <rect x="84"  y="126" width="24" height="24" rx="8"/>
+    <rect x="108" y="102" width="24" height="24" rx="8"/>
+    <rect x="108" y="78"  width="24" height="24" rx="8"/>
+  </g>
+
+  <circle cx="126" cy="86" r="3" fill="#0033b3"/>
+
+  <circle cx="150" cy="62" r="17" fill="#0052FF" stroke="#ffffff" stroke-width="3"/>
+  <rect x="143" y="55" width="14" height="14" rx="3" fill="none" stroke="#ffffff" stroke-width="2.4"/>
+</svg>
